@@ -1,10 +1,10 @@
-#**Part 1 — Used Cars Dataset (train.csv)**
+# **Part 1 - Used Cars Dataset (train.csv)** 
 
 Objective
 
 Perform data cleaning, preprocessing, and basic data manipulation operations on a used cars dataset.
 
-**(a) Missing Value Treatment**
+## **(a) Missing Value Treatment**
 
 Steps
 
@@ -20,7 +20,7 @@ Table of missing values
 
 Cleaned dataset containing no missing values
 
-**(b) Removal of Units**
+## **(b) Removal of Units**
 
 Steps
 
@@ -38,7 +38,7 @@ A function extracted the leading numeric value from each entry.
 
 Updated dataset preview showing unit-free numeric values
 
-**(c) One-Hot Encoding**
+## **(c) One-Hot Encoding**
 
 Steps
 
@@ -58,7 +58,7 @@ Fuel_Type_Petrol, Fuel_Type_Diesel, Fuel_Type_Electric
 
 Transmission_Manual, Transmission_Automatic
 
-**(d) Feature Engineering**
+## **(d) Feature Engineering**
 
 Steps
 
@@ -73,7 +73,7 @@ Using the current year from Python.
 
 Table displaying Year and corresponding Car_Age
 
-**(e) Data Manipulation Tasks**
+## **(e) Data Manipulation Tasks**
 
 Performed using pandas equivalents of:
 
@@ -105,14 +105,14 @@ Grouped summaries by Fuel_Type
 
 
 
-#**Part 2 — Diabetes Dataset (diabetes.csv)**
+# **Part 2 — Diabetes Dataset (diabetes.csv)**
 
 Objective
 
 Treat the dataset as a population and study sampling behavior and bootstrap distributions.
 Total: 20 points
 
-**(a) Random Sample of 25 & Glucose Comparison**
+## **(a) Random Sample of 25 & Glucose Comparison**
 
 Steps
 
@@ -136,7 +136,7 @@ Max Glucose	199	197
 
 Bar chart comparing sample vs population values
 
-**(b) 98th Percentile of BMI**
+## **(b) 98th Percentile of BMI**
 
 Steps
 
@@ -149,7 +149,7 @@ Statistic	Population	Sample (n=25)
 
 Bar chart comparing sample vs population BMI 98th percentiles
 
-**(c) Bootstrap Analysis (500 Samples of Size 150)**
+## **(c) Bootstrap Analysis (500 Samples of Size 150)**
 
 Steps
 
@@ -171,7 +171,7 @@ Mean	~69.11	~69.15
 Standard Deviation	~19.36	~19.19
 98th Percentile	~99.32	~98.03
 
-**Findings**
+## **Findings**
 
 Bootstrap mean closely matches the population mean.
 
@@ -185,7 +185,7 @@ Bar chart comparing population vs bootstrap average statistics
 
 Histograms of bootstrap means, SDs, and percentiles
 
-**Software & Libraries**
+## **Software & Libraries**
 
 Python
 
@@ -197,13 +197,13 @@ matplotlib
 
 Google Colab environment
 
-**Reproducibility**
+## **Reproducibility**
 
 Random seeds were used to ensure reproducible sampling and bootstrap results.
 
 All calculations and visualizations can be reproduced by running the notebook cells sequentially.
 
-**Files Included**
+## **Files Included**
 
 **notebook/usedcars.ipynb**
 
