@@ -203,14 +203,18 @@ All calculations and visualizations can be reproduced by running the notebook ce
 
 **Files Included**
 
-notebook/usedcars.ipynb
+**notebook/usedcars.ipynb**
+
 Full preprocessing, feature engineering, and manipulation for Part 1.
 
-notebook/part2diabetes.ipynb
+**notebook/part2diabetes.ipynb**
+
 Sampling, percentile estimation, and bootstrap analysis for Part 2.
 
-reports/part2_diabetes_findings.md
+**reports/part2_diabetes_findings.md**
+
 Written findings summarizing Part 2 results.
 
-data/train.csv, data/diabetes.csv
+**data/train.csv, data/diabetes.csv**
+
 Datasets used in this process.
