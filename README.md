@@ -1,9 +1,11 @@
 **Part 1 — Used Cars Dataset (train.csv)**
+
 Objective
 
 Perform data cleaning, preprocessing, and basic data manipulation operations on a used cars dataset.
 
 **(a) Missing Value Treatment**
+
 Steps
 
 Missing values were inspected across all columns.
@@ -19,6 +21,7 @@ Table of missing values
 Cleaned dataset containing no missing values
 
 **(b) Removal of Units**
+
 Steps
 
 The following columns originally contained text units and were converted into numeric form:
@@ -36,6 +39,7 @@ A function extracted the leading numeric value from each entry.
 Updated dataset preview showing unit-free numeric values
 
 **(c) One-Hot Encoding**
+
 Steps
 
 The categorical variables:
@@ -55,6 +59,7 @@ Fuel_Type_Petrol, Fuel_Type_Diesel, Fuel_Type_Electric
 Transmission_Manual, Transmission_Automatic
 
 **(d) Feature Engineering**
+
 Steps
 
 A new feature was created:
@@ -99,12 +104,14 @@ Sorted lists by price
 Grouped summaries by Fuel_Type
 
 **Part 2 — Diabetes Dataset (diabetes.csv)**
+
 Objective
 
 Treat the dataset as a population and study sampling behavior and bootstrap distributions.
 Total: 20 points
 
 **(a) Random Sample of 25 & Glucose Comparison**
+
 Steps
 
 A seed was set for reproducibility.
@@ -128,6 +135,7 @@ Max Glucose	199	197
 Bar chart comparing sample vs population values
 
 **(b) 98th Percentile of BMI**
+
 Steps
 
 Computed the 98th percentile of BMI for the population and the sample.
@@ -140,6 +148,7 @@ Statistic	Population	Sample (n=25)
 Bar chart comparing sample vs population BMI 98th percentiles
 
 **(c) Bootstrap Analysis (500 Samples of Size 150)**
+
 Steps
 
 500 bootstrap samples (replace=True) were generated.
@@ -159,6 +168,7 @@ Statistic	Population	Bootstrap Average
 Mean	~69.11	~69.15
 Standard Deviation	~19.36	~19.19
 98th Percentile	~99.32	~98.03
+
 **Findings**
 
 Bootstrap mean closely matches the population mean.
